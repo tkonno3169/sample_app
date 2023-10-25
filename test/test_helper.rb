@@ -4,6 +4,7 @@ require "rails/test_help"
 require "minitest/reporters"
 Minitest::Reporters.use!
 
+## test
 class ActiveSupport::TestCase
   # 指定のワーカー数でテストを並列実行する
   parallelize(workers: :number_of_processors)
